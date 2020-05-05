@@ -1,8 +1,8 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "sample_mod_template",
+  "name": "Sample Mod Tempalte",
+  "description": "Sample mod template, provided by cr1pto @ https://github.com/cloudstrifebro/1.12.2-forge-mod-template.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
