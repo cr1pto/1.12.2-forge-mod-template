@@ -9,7 +9,7 @@ After cloning this repo, in the repo root:
     ./gradlew setupDecompWorkspace eclipse
 ```
 
-### Jetbrains intelliJ Setup
+### Jetbrains IntelliJ Idea Setup
 ```
     ./gradlew setupDecompWorkspace idea
 ```
