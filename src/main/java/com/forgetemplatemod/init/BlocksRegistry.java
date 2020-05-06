@@ -9,7 +9,7 @@ import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.registries.IForgeRegistry;
 
-public class TutorialBlocks {
+public class BlocksRegistry {
 	public static final ArrayList<BlockBase> BLOCKS = new ArrayList<BlockBase>();
 	public static final BlockCompressedCobblestone compressedCobblestone = new BlockCompressedCobblestone("compressed_cobblestone");
 	

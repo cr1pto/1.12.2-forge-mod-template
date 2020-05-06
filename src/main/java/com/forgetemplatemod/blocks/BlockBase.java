@@ -1,7 +1,7 @@
 package com.forgetemplatemod.blocks;
 
 import com.forgetemplatemod.Main;
-import com.forgetemplatemod.init.TutorialBlocks;
+import com.forgetemplatemod.init.BlocksRegistry;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -19,7 +19,7 @@ public class BlockBase extends Block {
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		
-		TutorialBlocks.BLOCKS.add(this);
+		BlocksRegistry.BLOCKS.add(this);
 	}
 	
 	public void registerItemModel(Item itemBlock) {
