@@ -25,7 +25,7 @@ public abstract class ItemAxeBase extends ItemAxe implements IRegisterable {
 	public void updateRegistryAndLocalizedName(String name) {
 		
 		setRegistryName(name);
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		
 		ItemsRegistry.ITEMS.add(this);
 	}
